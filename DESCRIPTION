@@ -1,5 +1,5 @@
-Package: versioned_dataset_template
-Title: Title for your dataset package
+Package: leaf13C
+Title: a global dataset of leaf 13 C data
 Version: 0.0.1
 Date: 2017-04-21
 Description: Description of your dataset and what it's going to be used for
@@ -7,9 +7,10 @@ Depends:
     R (>= 3.1.0)
 License: MIT + file LICENSE
 LazyData: true
-Authors@R: as.person(c("your name here <your email here> [aut, cre]","Your collaborator's name <her email here> [aut]"))
-Maintainer: your name here <your email address>
+Author: Will Cornwell
+Maintainer: Will Cornwell <wcornwell@gmail.com>
 Imports:
+    dplyr,
     datastorr (>= 0.0.3)
 Suggests:
     testthat

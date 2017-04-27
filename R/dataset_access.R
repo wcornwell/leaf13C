@@ -2,7 +2,7 @@
 ##' This function provides access to the versioned dataset
 ##'
 ##'
-##' @title Dataset access
+##' @title get_data
 ##'
 ##' @param version Version number.  The default will load the most
 ##'   recent version on your computer or the most recent version known
@@ -25,7 +25,7 @@
 ##' #
 ##' #
 
-dataset_access_function <- function(version=NULL, path=NULL) {
+get_data <- function(version=NULL, path=NULL) {
   dataset_get(version, path)
 }
 
@@ -35,8 +35,8 @@ dataset_access_function <- function(version=NULL, path=NULL) {
 ##   2. the file to download (plant_lookup.csv)
 ##   3. the function to read the file, given a filename (read_csv)
 dataset_info <- function(path) {
-  datastorr::github_release_info("<organization_name/repo_name>",
-                                 filename="<name_of_the_file_in_the_release>",
+  datastorr::github_release_info("wcornwell/leaf_13C",
+                                 filename="leaf13C.csv",
                                  read=read_csv,
                                  path=path)
 }
@@ -46,7 +46,7 @@ dataset_get <- function(version=NULL, path=NULL) {
 }
 
 ##' @export
-##' @rdname fungal_traits
+##' @rdname get_data
 ##' @param local Logical indicating if local or github versions should
 ##'   be polled.  With any luck, \code{local=FALSE} is a superset of
 ##'   \code{local=TRUE}.  For \code{mydata_version_current}, if
@@ -57,13 +57,13 @@ dataset_versions <- function(local=TRUE, path=NULL) {
 }
 
 ##' @export
-##' @rdname fungal_traits
+##' @rdname get_data
 dataset_version_current <- function(local=TRUE, path=NULL) {
   datastorr::github_release_version_current(dataset_info(path), local)
 }
 
 ##' @export
-##' @rdname fungal_traits
+##' @rdname get_data
 dataset_del <- function(version, path=NULL) {
   datastorr::github_release_del(dataset_info(path), version)
 }
