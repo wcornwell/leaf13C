@@ -3,7 +3,7 @@ meta-data last edited 27 April 2017.  This file is designed to match the column 
 
 species is the species name.  These names were matched to the plant list v1.1. when possible.
 
-ps.type is the photosynthetic system, and includes C3, C4 
+ps.type is the photosynthetic system, and includes C3, C4, and CAM
 
 little.d13.org is the original value for little delta 13 C in parts per thousand (per mille).  in cases were big delta was reported, the value here is NA
 
