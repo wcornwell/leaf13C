@@ -16,7 +16,7 @@ This should download the most recent version of the database on to your computer
 
 As the database moves forward the version number will change, but access to older versions will be possible through the R package, the Github Releases page, and the Zenodo DOI.
 
-###Authors on this project
+### Authors on this project
 
 William K. Cornwell, Ian Wright, Joel Turner, Vincent Maire, Margaret Barbour, Lucas Cernusak, Todd Dawson,
 David Ellsworth, Graham Farquhar, Howard Griffiths, Claudia Keitel, Alexander Knohl, Peter Reich,
@@ -25,3 +25,6 @@ Anna Richards, Susanne Schmidt, Fernando Valladares, Christian Körner, Ernst-D
 
 ### Please cite
 
+William K. Cornwell, Ian Wright, Joel Turner, Vincent Maire, Margaret Barbour, Lucas Cernusak, Todd Dawson,
+David Ellsworth, Graham Farquhar, Howard Griffiths, Claudia Keitel, Alexander Knohl, Peter Reich,
+Dave Williams, Radika Bhaskar, J.H.C. Cornelissen, Anna Richards, Susanne Schmidt, Fernando Valladares, Christian Körner, Ernst-Detlef Schulze, Nina Buchmann, Louis Santiago. A global dataset of leaf ∆13C values. DOI: 10.5281/zenodo.569501
