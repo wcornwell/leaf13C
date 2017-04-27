@@ -42,7 +42,7 @@ dataset_info <- function(path) {
 }
 
 dataset_get <- function(version=NULL, path=NULL) {
-  datastorr::github_release_get(fungal_traits_info(path), version)
+  datastorr::github_release_get(dataset_info(path), version)
 }
 
 ##' @export
