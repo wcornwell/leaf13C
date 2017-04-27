@@ -1,7 +1,7 @@
 Package: leaf13C
 Title: a global dataset of leaf 13 C data
-Version: 0.0.1
-Date: 2017-04-21
+Version: 0.0.2
+Date: 2017-04-25
 Description: Description of your dataset and what it's going to be used for
 Depends:
     R (>= 3.1.0)
