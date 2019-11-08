@@ -4,11 +4,11 @@ This is data associated with the following paper:
 
 Cornwell, William K., et al. "Climate and soils together regulate photosynthetic carbon isotope discrimination within C3 plants worldwide." Global Ecology and Biogeography 27.9 (2018): 1056-1067.
 
+## How to use this package
+
 **If you want to just download the data, all versions are [here](https://github.com/wcornwell/leaf13C/releases).**  Alternatively if you're an `R` user, the data is wrapped up in a handy little data packages.  See below for how to use it.  
 
 **If you have a dataset that you'd like to add, please click on [issues](https://github.com/wcornwell/leaf13C/issues), and then `"New Issue"` and write a quick description preferably with a link to the paper/data.** We'll then sort out the easiest way to add those data.  
-
-## How to use this package
 
 #### Install the required packages
 
