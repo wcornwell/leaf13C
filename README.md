@@ -32,4 +32,4 @@ Anna Richards, Susanne Schmidt, Fernando Valladares, Christian Körner, Ernst-D
 
 ### Please cite
 
-Cornwell WK, Wright I, Turner J, Maire V, Barbour M, Cernusak L, Dawson T, Ellsworth D, Farquhar G, Griffiths H, Keitel C, Knohl A, Reich P, Williams D, Bhaskar R, Cornelissen JHC, Richards A, Schmidt S, Valladares F, Körner C, Schulze E, Buchmann N, Santiago L. Data from:  A global dataset of leaf ∆13C values. DOI: 10.5281/zenodo.569501
+Cornwell, William K., et al. "Climate and soils together regulate photosynthetic carbon isotope discrimination within C3 plants worldwide." Global Ecology and Biogeography 27.9 (2018): 1056-1067.
